@@ -1,0 +1,5 @@
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" thread="main" level="ERROR" loggerName="com.demo.log4j2.demo.log4j2.App" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1586561228" nanoOfSecond="881000000"/>
+    <Message>******* from log4j 2</Message>
+  </Event>
