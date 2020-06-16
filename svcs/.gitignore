@@ -1,0 +1,22 @@
+# Generated Artifacts # 
+*.class
+lib/
+/target/
+/logs/
+
+
+# Package Files #
+*.war
+*.ear
+
+
+# IDE Project Files #
+.project
+.classpath
+.factorypath
+.settings/
+
+# OS Files
+.DS_Store
+
+# Arbitrary Paths #

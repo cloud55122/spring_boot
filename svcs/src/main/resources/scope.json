@@ -1,0 +1,26 @@
+{
+  "authorization": [
+  {
+      "authType": "pattern",
+      "urlPattern": "(.*)?/healthcheck",
+      "id": 1,
+      "authToken":false,
+      "scopes": [
+          {
+            "method":"*"
+          }
+      ]
+    },
+    {
+      "authType": "pattern",
+      "urlPattern": "(.*)?/.*",
+      "id": 2,
+      "authToken":true,
+      "scopes": [
+          {
+            "method":"*"
+          }
+      ]
+    }
+  ]
+}
