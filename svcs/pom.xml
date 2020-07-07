@@ -3,17 +3,6 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<parent>
-		<groupId>com.wdpr.ee</groupId>
-		<artifactId>wdpr-ra-springboot-parent</artifactId>
-		<version>RELEASE</version>
-	</parent>
-
-
-	<groupId>com.wdpr.bussvcs.payment.hub</groupId>
-	<artifactId>svcs</artifactId>
-	<version>1.0.1</version>
-	<packaging>war</packaging>
 
 	<name>svcs</name>
 	<url>http://maven.apache.org</url>
@@ -98,11 +87,7 @@
 			<version>1.18.4</version>
 			<scope>provided</scope>
 		</dependency>
-		<dependency>
-			<groupId>com.wdpr.bussvcs.framework</groupId>
-			<artifactId>SharedApplication</artifactId>
-			<version>10.0.3-SNAPSHOT</version>
-		</dependency>
+		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
